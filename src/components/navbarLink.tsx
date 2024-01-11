@@ -1,3 +1,5 @@
+import ContactButton from "./contactButton";
+
 export default function NavbarLink() {
   return (
     <div className='navbar-container flex'>
@@ -7,6 +9,7 @@ export default function NavbarLink() {
         <li className='hover:text-blue-800 cursor-pointer'>Temoignages</li>
         <li className='hover:text-blue-800 cursor-pointer'>Contacter</li>
       </ul>
+     <ContactButton />
     </div>
   )
 }
