@@ -1,5 +1,4 @@
 import ProfilPicture from "./../images/background ed 2.png";
-import ContactButton from "./contactButton";
 export default function HeroSection() {
   return (
     <div className="flex h-screen bg-slate-100 ">
