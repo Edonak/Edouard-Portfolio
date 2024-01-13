@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+
+:root{
+    --primary-color: #5e3bee;
+    --heading-color: #282938;
+    --bg-shade : #f5fcff;
+    --github : #e62872;
+    --darkcolor: #1c1e53;
+    --color-text: #000000;
+    --color-text-oder: #ffffff;
+    --text-family: 'Titillium Web', sans-serif;
+    --btn-family: 'Titillium Web';
+}
+
+body{
+    margin:0;
+    font-family: var(--text-family);
+    -webkit-font-smoothing: var(--text-family);
+    -moz-osx-font-smoothing: var(--text-family);
+    font-style: normal;
+}
+
+.hero-section{
+    height: 90%;
+    background: red;
+}

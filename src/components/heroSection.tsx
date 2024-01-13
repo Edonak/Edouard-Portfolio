@@ -1,7 +1,7 @@
 import ProfilPicture from "./../images/background ed 2.png";
 export default function HeroSection() {
   return (
-    <div className="flex h-screen bg-slate-100 ">
+    <div className="hero-section flex h-screen bg-slate-100 ">
       <div className="w-2/4 mx-auto my-auto">
         <div className="mt-32">
           <p className=" text-2xl">Salut, Je suis Edouard</p>

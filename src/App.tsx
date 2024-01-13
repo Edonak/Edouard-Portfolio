@@ -1,7 +1,7 @@
-import './App.css'
-import Footer from './components/footer'
-import HeroSection from './components/heroSection'
-import Navbar from './components/navbar'
+import './App.css';
+import HeroSection from './components/heroSection';
+import MySkills from './components/mySkills';
+import Navbar from './components/navbar';
 
 function App() {
 
@@ -9,7 +9,7 @@ function App() {
     <>
     <Navbar />
     <HeroSection />
-    <Footer />
+    <MySkills />
     </>
   )
 }
