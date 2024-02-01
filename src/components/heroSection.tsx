@@ -1,9 +1,9 @@
-import ProfilPicture from "./../images/background ed 2.png";
+import ProfilPicture from "./../images/TroisiemeProfil.png";
 export default function HeroSection() {
   return (
-    <div className="hero-section flex h-screen bg-slate-100 ">
-      <div className="w-2/4 mx-auto my-auto">
-        <div className="mt-32">
+    <div className="hero-section flex h-screen ">
+      <div className="w-2/6 mx-auto ">
+        <div className="mt-16">
           <p className=" text-2xl">Salut, Je suis Edouard</p>
           <h1 className="text-blue-800 font-bold text-7xl">
             <span className="flex text-slate-950">Développeur</span> Full Stack
@@ -15,7 +15,7 @@ export default function HeroSection() {
         </div>
         <button type="button" className="bg-blue-800 text-white hover:bg-transparent hover:text-blue-800 hover:border-blue-800 font-semibold  py-3 px-4 mt-8 border border-white rounded">Entrez en contact</button>
       </div>
-      <div className=" w-2/5">
+      <div className=" w-2/5 mt-16">
         <img src={ProfilPicture} alt="Mon Profil" />
       </div>
     </div>

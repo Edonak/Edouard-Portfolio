@@ -7,9 +7,9 @@ export default function MySkills() {
                 <p className=""> Mes Skills</p>
                 <h2 className="">Mes Expériences</h2>
             </div>
-            <div className="flex justify-between">
+            <div className="flex justify-center gap-8 bor">
                 {data?.skills?.map((item, index)=>(
-                <div key={index} className=" w-1/4">
+                <div key={index} className=" w-1/4 border-solid border-2 border-indigo-600 ">
                     <div className="">
                         <img src={item.src} alt="products chain"/>
                     </div> 
