@@ -1,5 +1,6 @@
-import Avatar from './avatar';
+import Avatar from '../avatar';
 import NavbarLink from './navbarLink';
+
 
 export default function Navbar() {
   return (

@@ -1,4 +1,4 @@
-import ContactButton from "./contactButton";
+import ContactButton from "../contactButton";
 
 export default function NavbarLink() {
   return (

@@ -1,7 +1,7 @@
 import './App.css';
 import HeroSection from './components/heroSection';
 import MySkills from './components/mySkills';
-import Navbar from './components/navbar';
+import Navbar from './components/Navigation/navbar';
 
 function App() {
 
