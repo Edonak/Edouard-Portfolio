@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@media (max-width: 768px) {
+    .component {
+      /* Styles pour les écrans mobiles */
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .component {
+      /* Styles pour les tablettes */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .component {
+      /* Styles pour les ordinateurs portables et de bureau */
+    }
+  }

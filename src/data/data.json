@@ -4,25 +4,38 @@
             "id":"1",
             "src":"./../images/icons-developer.png",
             "title":"Front-End",
-            "description":"Lorem est un truc louche que je deteste Lorem est un truc louche que je deteste Lorem est un truc louche que je deteste"
-        },
+            "competence1":"HTML 5",
+            "competence2":"CSS 3",
+            "competence3":"Javascript",
+            "competence4":"Tailwind CSS",
+            "competence5":"React JS"
+         },
         {
             "id":"2",
             "src":"./../images/icons8-backend-50.png",
             "title":"Back-End",
-            "description":"Lorem est un truc louche que je deteste Lorem est un truc louche que je deteste Lorem est un truc louche que je deteste"
+            "competence1":"Node JS",
+            "competence2":"Express JS",
+            "competence3":"PostgreSQL",
+            "competence4":"TypeScript"
         },
         {
             "id":"3",
             "src":"./../images/icons-designer-color.png",
             "title":"UI & UX Design",
-            "description":"Lorem est un truc louche que je deteste Lorem est un truc louche que je deteste Lorem est un truc louche que je deteste"
-        },
+            "competence1":"Conception avec Figma",
+            "competence2":"Adode XD",
+            "competence3":"Prototypage"
+            },
         {
             "id":"4",
             "src":"./../images/icons-devOps-engineer.png",
             "title":"devOps",
-            "description":"Lorem est un truc louche que je deteste Lorem est un truc louche que je deteste Lorem est un truc louche que je deteste"
-        }
+            "competence1":"GitLab CI/CD",
+            "competence2":"JUnit",
+            "competence3":"Docker",
+            "competence4":"GitHub",
+            "competence5":"Amazon Web Services (AWS)"
+         }
     ]
 }
