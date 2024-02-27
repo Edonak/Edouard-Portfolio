@@ -1,4 +1,5 @@
-import ProfilPicture from "./../images/TroisiemeProfil.png";
+import ButtonGeneral from "../primaryComponents/buttonGeneral";
+import ProfilPicture from "./../../../public/images/TroisiemeProfil.png";
 export default function HeroSection() {
   return (
     <div className="hero-section flex h-screen ">
@@ -13,7 +14,7 @@ export default function HeroSection() {
             Tempore eius sit, ratione explicabo adipisci natus ipsum ullam.{" "}
           </p>
         </div>
-        <button type="button" className="bg-blue-800 text-white hover:bg-transparent hover:text-blue-800 hover:border-blue-800 font-semibold  py-3 px-4 mt-8 border border-white rounded">Entrez en contact</button>
+        <ButtonGeneral value="Entrez en contact" className="bg-blue-800 text-white hover:bg-transparent hover:text-blue-800 hover:border-blue-800 font-semibold  py-3 px-4 mt-8 border border-white rounded"/>
       </div>
       <div className=" w-2/5 mt-16">
         <img src={ProfilPicture} alt="Mon Profil" />

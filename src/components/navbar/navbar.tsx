@@ -1,4 +1,5 @@
-import Avatar from './avatar';
+
+import Avatar from '../primaryComponents/avatar';
 import NavbarLink from './navbarLink';
 
 export default function Navbar() {

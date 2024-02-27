@@ -2,20 +2,26 @@
     "skills" :[
         {
             "id":"1",
-            "src":"./../images/logout.png",
+            "src":"./../images/icons-developer.png",
             "title":"Front-End",
             "description":"Lorem est un truc louche que je deteste Lorem est un truc louche que je deteste Lorem est un truc louche que je deteste"
         },
         {
             "id":"2",
-            "src":"./../images/open in new.png",
+            "src":"./../images/icons8-backend-50.png",
             "title":"Back-End",
             "description":"Lorem est un truc louche que je deteste Lorem est un truc louche que je deteste Lorem est un truc louche que je deteste"
         },
         {
             "id":"3",
-            "src":"./../images/event upcoming.png",
+            "src":"./../images/icons-designer-color.png",
             "title":"UI & UX Design",
+            "description":"Lorem est un truc louche que je deteste Lorem est un truc louche que je deteste Lorem est un truc louche que je deteste"
+        },
+        {
+            "id":"4",
+            "src":"./../images/icons-devOps-engineer.png",
+            "title":"devOps",
             "description":"Lorem est un truc louche que je deteste Lorem est un truc louche que je deteste Lorem est un truc louche que je deteste"
         }
     ]

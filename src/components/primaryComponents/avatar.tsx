@@ -1,4 +1,4 @@
-import LogoProfil from './../images/Edo2.png';
+import LogoProfil from './../../../public/images/Edo2.png';
 
 export default function Avatar() {
   return (
