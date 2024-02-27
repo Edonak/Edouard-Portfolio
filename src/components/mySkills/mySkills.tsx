@@ -1,5 +1,4 @@
 import data from "../../data/data.json";
-import ButtonGeneral from "../primaryComponents/buttonGeneral";
 
 export default function MySkills() {
     return (
@@ -29,7 +28,6 @@ export default function MySkills() {
                 ))
                 }
             </div>
-            <ButtonGeneral value="JIOSjhio" />
         </section>
     );
 }
