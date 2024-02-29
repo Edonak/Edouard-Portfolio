@@ -10,9 +10,9 @@ export default function MySkills() {
             <div className="flex flex-wrap w-[90%] justify-center mx-auto my-auto py-10 gap-20" >
                 {data?.skills?.map((item, index)=>(
                 <div key={index} className=" w-[30%] h-[40vh] p-4 border-solid rounded-3xl  bg-slate-100 shadow-lg skills">
-                    <div className="pl-6 pt-2">
+                    <figure className="pl-6 pt-2">
                         <img src={item.src} alt="products chain"/>
-                    </div> 
+                    </figure> 
                     <div className="">
                         <h3 className="text-blue-800 font-bold text-2xl">{item.title}</h3>
                         <ul>

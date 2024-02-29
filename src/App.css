@@ -25,3 +25,17 @@ body{
     height: 90%;
     background: var(--bg-image-hero-section);
 }
+
+/*Style Mes Projets*/
+
+.project-image{
+position: relative;
+}
+.project-detail{
+    background: #ffffff;
+    margin-top: -6rem;
+    text-align: center;
+    position: absolute;
+    height: 13.6vh;
+    
+}
