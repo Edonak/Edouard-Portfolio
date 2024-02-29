@@ -37,7 +37,7 @@ export default function MyProjects() {
       <div className="mx-auto my-auto">
         <p className="text-center uppercase font-bold text-3xl text-blue-800">
           {" "}
-          * Mes Projets
+          ** Mes Projets
         </p>
         <h2 className="text-center font-semibold text-xl mb-8">
           Les projets sur lesquels j'ai travaillé
@@ -58,8 +58,10 @@ export default function MyProjects() {
             <div className="project-detail w-[23.2%] rounded-b-3xl">
               <h5>Title Project</h5>
               <p>Ceci est un paragraphe detaillant le Projet.</p>
-              <ButtonGeneral value="Voir plus" 
-              className="bg-blue-800 text-white hover:bg-transparent hover:text-blue-800 hover:border-blue-800 font-semibold  py-1 px-1 mt-1 border border-white rounded"/>
+              <ButtonGeneral
+                value="Voir plus"
+                className="bg-blue-800 text-white hover:bg-transparent hover:text-blue-800 hover:border-blue-800 font-semibold  py-1 px-1 mt-1 border border-white rounded"
+              />
             </div>
           )}
         </div>
@@ -77,8 +79,10 @@ export default function MyProjects() {
             <div className="project-detail w-[23.2%] rounded-b-3xl">
               <h5>Title Project</h5>
               <p>Ceci est un paragraphe detaillant le Projet.</p>
-              <ButtonGeneral value="Voir plus" 
-              className="bg-blue-800 text-white hover:bg-transparent hover:text-blue-800 hover:border-blue-800 font-semibold  py-1 px-1 mt-1 border border-white rounded"/>
+              <ButtonGeneral
+                value="Voir plus"
+                className="bg-blue-800 text-white hover:bg-transparent hover:text-blue-800 hover:border-blue-800 font-semibold  py-1 px-1 mt-1 border border-white rounded"
+              />
             </div>
           )}
         </div>
@@ -96,8 +100,10 @@ export default function MyProjects() {
             <div className="project-detail w-[23.2%] rounded-b-3xl">
               <h5>Title Project</h5>
               <p>Ceci est un paragraphe detaillant le Projet.</p>
-              <ButtonGeneral value="Voir plus" 
-              className="bg-blue-800 text-white hover:bg-transparent hover:text-blue-800 hover:border-blue-800 font-semibold  py-1 px-1 mt-1 border border-white rounded"/>
+              <ButtonGeneral
+                value="Voir plus"
+                className="bg-blue-800 text-white hover:bg-transparent hover:text-blue-800 hover:border-blue-800 font-semibold  py-1 px-1 mt-1 border border-white rounded"
+              />
             </div>
           )}
         </div>
