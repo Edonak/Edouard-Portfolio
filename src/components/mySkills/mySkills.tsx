@@ -3,6 +3,7 @@ import data from "../../data/data.json";
 export default function MySkills() {
   return (
     <section className="mx-auto my-auto py-10" id="mySkills">
+        
       <div className="mx-auto my-auto">
         <p className="text-center uppercase font-bold text-3xl text-blue-800">
           {" "}
