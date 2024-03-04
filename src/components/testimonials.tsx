@@ -1,7 +1,5 @@
-import React from 'react'
-
 export default function Testimonials() {
   return (
-    <div>Temoignages</div>
-  )
+   <h1>Hello</h1>
+  );
 }

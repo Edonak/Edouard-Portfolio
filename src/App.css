@@ -38,3 +38,27 @@ position: relative;
     position: absolute;
     height: 13.6vh;
 }
+
+/*Contact style*/
+.right_conatct_social_icon{
+    background: linear-gradient(to top right, #1325e8 -5%, #8f10b7 100%);
+}
+
+.right_conatct_social_icon{
+   height: 100%;
+}
+.contact_field .form-control:focus{
+   box-shadow: none;
+   outline: none;
+   border-bottom: 2px solid #1325e8;
+}
+.contact_field .form-control::placeholder{
+   font-size: 13px;
+   letter-spacing: 1px;
+}
+
+
+button.contact_form_submit, .contact {
+   background: linear-gradient(to top right, #1325e8 -5%, #8f10b7 100%);
+   color: #ffffff;
+}
