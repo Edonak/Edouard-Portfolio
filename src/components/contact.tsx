@@ -45,7 +45,7 @@ const ContactForm: React.FC<ContactFormProps> = () => {
       <div className="">
         <div className="">
           <div className="bg-white relative flex shadow-lg w-[50%]  mx-auto my-auto h-[70vh] rounded-t-3xl  rounded-br-none">
-            <div className="">
+            <div className="w-[60%] ">
                 <form  onSubmit={handleSubmit} className="">
                   <div className="rounded-none border-b border-gray-300 p-6 pb-9 pt-20 pl-10 pr-40 ">
                     <h3 className="text-black text-4xl tracking-wide font-bold mb-4">Me Contacter</h3>
@@ -54,7 +54,7 @@ const ContactForm: React.FC<ContactFormProps> = () => {
                        type="text"
                        name="name"
                        id="name"
-                       className="rounded-none border-b border-gray-300 p-3"
+                       className="rounded-none border-b border-gray-300 p-3 w-[100%] outline-none"
                        placeholder="Votre nom"
                        value={formData.name}
                        onChange={handleChange}
@@ -65,7 +65,7 @@ const ContactForm: React.FC<ContactFormProps> = () => {
                        type="email"
                        name="email"
                        id="email"
-                       className="rounded-none border-b border-gray-300 p-3"
+                       className="rounded-none border-b border-gray-300 p-3 w-[100%] outline-none"
                        placeholder="Votre adresse email"
                        value={formData.email}
                        onChange={handleChange}
@@ -74,7 +74,7 @@ const ContactForm: React.FC<ContactFormProps> = () => {
                     <textarea
                        name="message"
                        id="message"
-                       className="rounded-none border-b border-gray-300 p-3"
+                       className="rounded-none border-b border-gray-300 p-3  w-[100%] outline-none"
                        placeholder="Votre message"
                        value={formData.message}
                        onChange={handleChange}
@@ -85,21 +85,21 @@ const ContactForm: React.FC<ContactFormProps> = () => {
                 </form>
               
             </div>
-            <div className="contact rounded-tr-3xl w-[50%] bg-black pt-14 pl-4 text-center">
-              <h3 className="tracking-wide pb-6  font-bold">Information Contact</h3>
+            <div className="contact rounded-tr-3xl w-[40%] bg-black pt-14 pl-4">
+              <h3 className="tracking-wide pb-6 text-center font-bold">Information Contact</h3>
               <div className="d-flex info_single align-items-center">
                 <i className="fas fa-headset mr-4"></i>
-                <span>+91 8009 054294</span>
+                <p>+243 822 874 347</p>
+                <p>+243 844 060 541</p>
               </div>
               <div className="d-flex info_single align-items-center">
                 <i className="fas fa-envelope-open-text"></i>
-                <span>info@flightmantra.com</span>
+                <span>nakasilaedouard@gmail.com</span>
               </div>
               <div className="d-flex info_single align-items-center">
                 <i className="fas fa-map-marked-alt"></i>
                 <span>
-                  1000+ Travel partners and 65+ Service city across India,
-                  USA, Canada & UAE
+                  17B Bis, Viaza, Q/ Viaza Matete Kinshasa RDC
                 </span>
               </div>
               <div className="">

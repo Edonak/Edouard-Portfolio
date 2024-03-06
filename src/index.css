@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.skills {
+.skills, .project {
 
 	transition-duration: .5s;
 	transition-property: transform;
@@ -10,8 +10,6 @@
 		transform: scale(1.1);
 	}
 }
-
-
 
 
 
