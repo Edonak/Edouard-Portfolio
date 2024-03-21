@@ -1,5 +1,5 @@
 
-import ButtonGeneral from './primaryComponents/buttonGeneral'
+import ButtonGeneral from '../primaryComponents/buttonGeneral'
 
 export default function MyProject() {
   return (
@@ -16,7 +16,7 @@ export default function MyProject() {
         Les projets sur lesquels j'ai travaillé
       </h2>
     </div>
-    <div className=" flex flex-wrap w-[80%] justify-center mx-auto my-auto py-10 gap-20">
+    <div className=" flex flex-wrap w-[80%] h-[45vh] justify-center mx-auto my-auto py-5 gap-20">
       <div className=" project w-[25%] bg-slate-50 border-solid rounded-3xl shadow-lg  ">
          <p>Hello</p>
       </div>
@@ -28,6 +28,7 @@ export default function MyProject() {
          <p>Gang</p>
     </div>
     </div>
+    <ButtonGeneral value='Tout voir' className='' />
   </section>
   )
 }
