@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.skills, .project {
+.skills {
 
 	transition-duration: .5s;
 	transition-property: transform;
@@ -11,6 +11,8 @@
 	}
 }
 
+.project { transition: all .2s ease-in-out; }
+.project:hover { transform: scale(1) rotate(5deg); }
 
 
 

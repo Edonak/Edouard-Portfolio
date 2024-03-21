@@ -19,8 +19,8 @@ export default function HeroSection() {
           className="bg-blue-800 text-white hover:bg-transparent hover:text-blue-800 hover:border-blue-800 font-semibold  py-3 px-4 mt-8 border border-white rounded"
         />
       </div>
-      <figure className=" w-2/5 mt-16">
-        <img src={ProfilPicture} alt="Mon Profil" />
+      <figure className=" w-2/5 mt-16 ">
+        <img src={ProfilPicture} alt="Mon Profil"  className="rounded-full"/>
       </figure>
     </div>
   );
