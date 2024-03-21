@@ -149,14 +149,14 @@ const ContactForm: React.FC<ContactFormProps> = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <FontAwesomeIcon icon={faGithub} />
+                      <FontAwesomeIcon icon={GithubLogo} />
                     </a>
                     <a
                       href="https://www.linkedin.com/in/votre-nom-linkedin"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <FontAwesomeIcon icon={faLinkedin} />
+                      <FontAwesomeIcon icon={LinkdinLogo} />
                     </a>
                     <a href="mailto:votre-email@email.com">
                       <FontAwesomeIcon icon={faEnvelope} />
@@ -172,5 +172,3 @@ const ContactForm: React.FC<ContactFormProps> = () => {
   );
 }
 
-
-export default ContactForm;
