@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"; // or other appropriate package
+// or other appropriate package
 import ButtonGeneral from "./primaryComponents/buttonGeneral";
+import GithubLogo from "./../../public/images/icons8-github.svg";
+import LinkdinLogo from "./../../public/images/icons8-linkedin.svg";
+
 
 
 interface ContactFormProps {
@@ -109,14 +109,14 @@ const ContactForm: React.FC<ContactFormProps> = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <FontAwesomeIcon icon={faGithub} />
+                  <FontAwesomeIcon icon={GithubLogo} />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/votre-nom-linkedin"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <FontAwesomeIcon icon={faLinkedin} />
+                  <FontAwesomeIcon icon={LinkdinLogo}/>
                 </a>
                 <a href="mailto:votre-email@email.com">
                   <FontAwesomeIcon icon={faEnvelope} />
