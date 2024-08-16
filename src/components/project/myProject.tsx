@@ -8,7 +8,7 @@ export default function MyProject() {
     id="myprojects"
   >
     <div className="mx-auto my-auto">
-      <p className="text-center uppercase font-bold text-3xl text-blue-800">
+      <p className="text-center uppercase font-bold text-3xl text-blue-800 pt-8">
        
         ** Mes Projets
       </p>
@@ -18,17 +18,17 @@ export default function MyProject() {
     </div>
     <div className=" flex flex-wrap w-[80%] h-[45vh] justify-center mx-auto my-auto py-5 gap-20">
       <div className=" project w-[25%] bg-slate-50 border-solid rounded-3xl shadow-lg  ">
-         <p>Hello</p>
+         <p className='text-center'>Habiteo</p>
       </div>
       <div className=" project w-[25%] bg-slate-50 border-solid rounded-3xl shadow-lg">
-        <p>Megalo</p>
+        <p className='text-center'>Megalo</p>
           </div>
      
       <div className=" project w-[25%]  bg-slate-50 border-solid rounded-3xl shadow-lg">
-         <p>Gang</p>
+         <p className='text-center'>Gang</p>
     </div>
     </div>
-    <ButtonGeneral value='Tout voir' className='' />
+    <ButtonGeneral value='Tout voir' className='text-center' />
   </section>
   )
 }

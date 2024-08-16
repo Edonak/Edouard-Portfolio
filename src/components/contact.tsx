@@ -85,7 +85,7 @@ return (
             
           </div>
           <div className="contact rounded-tr-3xl w-[40%] bg-black pt-14 pl-4">
-            <h3 className="tracking-wide pb-6 text-center font-bold">Information Contact</h3>
+            <h3 className="tracking-wide pb-6 text-center font-bold uppercase">Information Contact</h3>
             <div className="d-flex info_single align-items-center">
               <i className="fas fa-headset mr-4"></i>
               <p>+243 822 874 347</p>
