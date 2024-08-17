@@ -4,8 +4,8 @@ export default function MySkills() {
   return (
     <section className="mx-auto my-auto py-10" id="mySkills">
         
-      <div className="mx-auto my-auto">
-        <p className="text-center uppercase font-bold text-3xl text-blue-800">
+      <div className="mx-auto my-auto myskillsTitle">
+        <p className="text-center uppercase font-bold text-blue-800 ">
           {" "}
           * Mes Skills
         </p>
@@ -15,7 +15,7 @@ export default function MySkills() {
         {data?.skills?.map((item, index) => (
           <div
             key={index}
-            className=" w-[20%] h-[30vh] p-4 border-solid rounded-3xl  bg-slate-100 shadow-lg skills"
+            className="p-4 border-solid rounded-3xl  bg-slate-100 shadow-lg skills"
           >
             <div className="mx-auto my-auto text-center">
               <figure className="pl-6 pt-2">

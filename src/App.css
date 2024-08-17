@@ -54,7 +54,8 @@ background: var(--bg-image-myskills);
     .heroSectionContainerText p{
         font-size: 1rem;
         padding-top: 1rem;
-        text-align: justify;
+        text-align: center;
+        padding-left: -4rem;
     }
     .heroSectionContainerImage img{
         display: none;
@@ -66,6 +67,35 @@ background: var(--bg-image-myskills);
     }
   }
 
+
+  /*Style MySkills*/
+  .myskillsTitle p{
+    font-size: 2rem;
+  }
+  .skills {
+    width: 20%;
+    height: 30vh;
+
+  }
+  /*Style MySkills reponsive*/
+
+  @media screen and (max-width: 480px) {
+    .myskillsTitle p{
+        font-size: 1.2rem;
+    }
+    .myskillsTitle h2{
+        font-size: large;
+    }
+    .skills{
+        width: 80%;
+        height: 35vh;
+    }
+    .skills figure{
+        margin-left: 4rem;
+        padding-bottom: 1rem;
+    }
+    
+  }
 /*Style Mes Projets*/
 
 .project-image{
