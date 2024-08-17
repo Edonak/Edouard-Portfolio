@@ -15,7 +15,7 @@ export default function MySkills() {
         {data?.skills?.map((item, index) => (
           <div
             key={index}
-            className=" w-[30%] h-[40vh] p-4 border-solid rounded-3xl  bg-slate-100 shadow-lg skills"
+            className=" w-[20%] h-[30vh] p-4 border-solid rounded-3xl  bg-slate-100 shadow-lg skills"
           >
             <div className="mx-auto my-auto text-center">
               <figure className="pl-6 pt-2">
