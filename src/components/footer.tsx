@@ -2,9 +2,9 @@ import Avatar from "./primaryComponents/avatar";
 
 export default function Footer() {
   return (
-    <footer className="mx-auto my-auto text-center">
-      <div>
-        <figure className="w-[10%]  h-[20vh]  mx-auto my-auto">
+    <footer className="text-center">
+      <div className="footer-avatar">
+        <figure className=" h-[20vh]  mx-auto my-auto">
           <Avatar />
         </figure>
         <q className="font-bold"> Le plus difficile est la décision d'agir, le reste n'est que ténacité</q>

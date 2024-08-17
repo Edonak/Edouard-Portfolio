@@ -25,12 +25,12 @@ export default function HeroSection() {
           </a>
         </div>
       </div>
-      <div className="flex h-screen heroSectionContainer">
-        <div className="w-2/6 mx-auto heroSectionContainerText">
+      <div className="h-screen heroSectionContainer">
+        <div className="heroSectionContainerText">
           <div className="">
             <p className=" text-2xl">Salut, Je suis Edouard</p>
-            <h1 className="text-blue-800 font-bold text-7xl">
-              <span className="flex text-slate-950">Développeur</span> Full
+            <h1 className="text-blue-800 font-bold">
+              <span className="text-slate-950">Développeur</span> Full
               Stack
             </h1>
             <p className=" text-xl">

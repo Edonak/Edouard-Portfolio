@@ -27,6 +27,14 @@ body{
     height: 90%;
     background: var(--bg-image-hero-section);
 }
+.heroSectionContainerText{
+    margin-left: auto;
+    margin-right: auto;
+}
+.heroSectionContainer{
+    display: flex;
+}
+
 #myprojects{
 background: var(--bg-image-myskills);
 }
@@ -41,8 +49,8 @@ background: var(--bg-image-myskills);
     .heroSectionContainer{
         width: 100%;
         border: 1px solid rgba(0, 0, 0, 0.096);
-        display: inline;
         padding: 0%;
+        display: block;
     }
     .heroSectionContainer a{
         font-size: 0.7rem;
@@ -56,14 +64,21 @@ background: var(--bg-image-myskills);
         padding-top: 1rem;
         text-align: center;
         padding-left: -4rem;
+        font-size: 1.4rem;
+    }
+    .heroSectionContainerText{
+        width: 100%;
+        text-align: center;
+        padding:0 1rem 0 1rem;
     }
     .heroSectionContainerImage img{
-        display: none;
-        width: 5%;
+        margin-left: 8rem;
+        border-radius: 100%;
+        border: 1px solid rgba(184, 181, 181, 0.274);
     }
     .heroSectionContainerImage{
-        display: none;
         width: 5%;
+
     }
   }
 
@@ -132,3 +147,17 @@ button.contact_form_submit, .contact {
    background: linear-gradient(to top right, #1325e8 -5%, #8f10b7 100%);
    color: #ffffff;
 }
+
+/*footer style*/
+footer{
+    margin:auto;
+}
+/*footer style responsive*/
+@media screen and (max-width: 480px) {
+    .footer-avatar{
+        width: 50%;
+        height: 10vh;
+    }
+    
+  }
+
