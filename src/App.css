@@ -148,16 +148,24 @@ button.contact_form_submit, .contact {
    color: #ffffff;
 }
 
-/*footer style*/
+/* footer style*/
 footer{
     margin:auto;
 }
+    footer figure{
+        width: 10%;
+        height: 20vh;
+    }
+    .footer-bottom{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
 /*footer style responsive*/
 @media screen and (max-width: 480px) {
-    .footer-avatar{
-        width: 50%;
-        height: 10vh;
+    footer figure{
+        width: 45%;
     }
-    
-  }
+  } 
 
