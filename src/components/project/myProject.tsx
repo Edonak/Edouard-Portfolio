@@ -18,15 +18,19 @@ export default function MyProject() {
         <div className=" project bg-slate-50 border-solid rounded-3xl shadow-lg  ">
           <p className="text-center">Habiteo</p>
         </div>
-        <div className=" project bg-slate-50 border-solid rounded-3xl shadow-lg">
+        <div className=" project border-solid rounded-3xl shadow-lg">
           <p className="text-center">Megalo</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad aspernatur tempora recusandae officia in, odit vitae amet, possimus, vel necessitatibus mollitia numquam beatae. </p>
         </div>
 
         <div className=" project bg-slate-50 border-solid rounded-3xl shadow-lg">
           <p className="text-center">Gang</p>
         </div>
       </div>
-      <a href="" className="buttonVoirPlus"> Voir Plus</a>
+      <div className="buttonVoirPlus">
+      <a href="" > Voir Plus</a>
+      </div>
+      
     </section>
   );
 }
