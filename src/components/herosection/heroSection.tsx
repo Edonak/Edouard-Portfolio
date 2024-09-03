@@ -2,10 +2,11 @@ import Avatar from "../primaryComponents/avatar";
 import ButtonGeneral from "../primaryComponents/buttonGeneral";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import ProfilPicture from "./../../../public/images/Sans_titre-removebg-preview.png";
+import BlurImage from "./BlurImage";
 
 export default function HeroSection() {
   return (
-    <section className="hero-section h-[80vh] w-[100%]">
+    <section className="hero-section h-[98vh] w-[100%]">
       <div className="flex w-[75%] justify-between mx-auto my-auto">
         <div className="avatar mt-6">
           <Avatar />
@@ -39,17 +40,19 @@ export default function HeroSection() {
           </div>
 
           <a
-            href="/../../doc/CV_2024-08-16_Edouard_NAKASILA ANAKEKA"
+            href="./../doc/CV_2024-08-16_Edouard_NAKASILA ANAKEKA"
             download="Edouard Nakasila CV.pdf"
           >
             <ButtonGeneral
               value="Télécharger mon CV"
-              className="bg-blue-800 text-white hover:bg-transparent hover:text-blue-800 hover:border-blue-800 font-semibold  py-3 px-4 mt-8 border border-white rounded"
+              className="buttonTelecharger bg-blue-800 text-white hover:bg-transparent hover:text-blue-800 hover:border-blue-800 font-semibold  py-3 px-4 mt-8 border border-white rounded"
             />
           </a>
         </div>
-        <figure className=" w-2/5 heroSectionContainerImage">
-          <img src={ProfilPicture} alt="Mon Profil" className="rounded-full" />
+        <figure className=" heroSectionContainerImage">
+        <BlurImage
+          img={<img src={ProfilPicture} alt="Mon Profil" className="rounded-full" />}
+        />
         </figure>
       </div>
     </section>

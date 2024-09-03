@@ -162,29 +162,40 @@ body {
     padding-left: -4rem;
     font-size: 1.4rem;
   }
+  .buttonTelecharger{
+    width: 50%;
+    font-size: 1rem;
+  }
   .heroSectionContainerText {
     width: 100%;
     text-align: center;
     padding: 0 1rem 0 1rem;
   }
   .heroSectionContainerImage img {
-    margin-left: 8rem;
+    width: 75%;
+    margin-top: 2rem;
+    margin-left: 6rem;
     border-radius: 100%;
     border: 1px solid rgba(184, 181, 181, 0.274);
   }
   .heroSectionContainerImage {
-    width: 5%;
+    width: 100%;
   }
 }
 
 /*Style MySkills*/
 .myskillsTitle p {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .skills {
   width: 20%;
-  height: 30vh;
+  height: 45vh;
 }
+.skills figure{
+  padding-left: 4.5rem;
+  padding-top: 1rem;
+}
+
 /*Style MySkills reponsive*/
 
 @media screen and (max-width: 480px) {
@@ -199,7 +210,7 @@ body {
     height: 35vh;
   }
   .skills figure {
-    margin-left: 4rem;
+    margin-left: 1.5rem;
     padding-bottom: 1rem;
   }
 }
@@ -208,7 +219,10 @@ body {
 
 #myProjects {
   width: 100%;
-  height: 70vh;
+  height: 80vh;
+}
+.myProjectsTitle p{
+font-size: 1.5rem;
 }
 .myProjectsContainer {
   display: flex;
@@ -218,18 +232,11 @@ body {
   gap: 4rem;
 }
 .project {
-  width: 25%;
+  width: 24%;
   min-height: 30vh;
 }
 .project-image {
   position: relative;
-}
-.project-detail {
-  background: #ffffff;
-  margin-top: -6rem;
-  text-align: center;
-  position: absolute;
-  height: 13.6vh;
 }
 .buttonVoirPlus{
     text-align: center;
@@ -290,6 +297,23 @@ button.contact_form_submit,
   background: linear-gradient(to top right, #1325e8 -5%, #8f10b7 100%);
   color: #ffffff;
 }
+
+
+
+/*Formulaire style*/
+.containerFormulaire{}
+
+@media screen and (max-width: 480px) {
+  .formulaire{
+    width: 100%;
+    height: 100vh;
+    background: #000;
+  }
+  .contact{
+    display: none;
+  }
+  }
+
 
 /* footer style*/
 footer {

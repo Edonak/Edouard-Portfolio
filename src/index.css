@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 .skills {
-
 	transition-duration: .5s;
 	transition-property: transform;
 	&:hover {
@@ -11,8 +10,60 @@
 	}
 }
 
-.project { transition: all .2s ease-in-out; }
-.project:hover { transform: scale(1) rotate(5deg); }
+.project { 
+  padding: 1rem;
+  transition: all .5s ease-out;
+  background: linear-gradient(to right, rgb(74, 77, 250) 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom; 
+}
+.project:hover {
+  background-position: left bottom;
+  color: azure;
+}
+
+.project .text{
+  display: block;
+  transition: all .4s ease-out;
+  text-align:justify;
+}
+.text-title{
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.textLink:before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: hsl(14, 100, 53);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+  }
+  &:after {
+    content: "\2192";
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+    transform: rotate(-45deg);
+
+    transition: margin 0.3s ease-in-out, transform 0.3s ease-in-out,
+      color 0.3s ease-in-out;
+  }
+  &:hover {
+    &:before {
+      width: 100%;
+      z-index: -1;
+    }
+    &:after {
+      color: hsl(14, 100, 53);
+      margin-left: 15px;
+      transform: rotate(0deg);
+    }
+  }
 
 
 

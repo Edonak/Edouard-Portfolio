@@ -17,8 +17,8 @@ export default function MySkills() {
             key={index}
             className="p-4 border-solid rounded-3xl  bg-slate-100 shadow-lg skills"
           >
-            <div className="mx-auto my-auto text-center">
-              <figure className="pl-6 pt-2">
+            <div className="mx-auto my-auto text-center Card-mySkills">
+              <figure>
                 <img src={item.src} alt="products chain" />
               </figure>
               <div className="">
