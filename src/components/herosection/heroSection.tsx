@@ -29,18 +29,19 @@ export default function HeroSection() {
       <div className="h-screen heroSectionContainer">
         <div className="heroSectionContainerText">
           <div className="">
-            <p className=" text-2xl">Salut, Je suis Edouard</p>
+            <p className=" text-2xl">Salut, Je suis Edouard NAKASILA</p>
             <h1 className="text-blue-800 font-bold">
-              <span className="text-slate-950">Développeur</span> Full
-              Stack
+              <span className="text-slate-950">Développeur</span> Web et UI/UX Designer
             </h1>
             <p className=" text-xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+              Je suis passionné par le développement Web.<br />
+              J'aime codé et j'aime faire des designs, <br/> 
+              Pour rendre vos sites et applications Web présentable
             </p>
           </div>
 
           <a
-            href="./../doc/CV_2024-08-16_Edouard_NAKASILA ANAKEKA"
+            href="./../../doc/CV_2024-08-16_Edouard_NAKASILA ANAKEKA.pdf"
             download="Edouard Nakasila CV.pdf"
           >
             <ButtonGeneral

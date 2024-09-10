@@ -23,18 +23,10 @@
             "src":"./../images/icons-designer-color.png",
             "title":"UI & UX Design",
             "competence1":"Conception avec Figma",
-            "competence2":"Adode XD",
+            "competence2":"Conception avec Adode XD",
             "competence3":"Prototypage"
-            },
-        {
-            "id":"4",
-            "src":"./../images/icons-devOps-engineer.png",
-            "title":"devOps",
-            "competence1":"GitLab CI/CD",
-            "competence2":"JUnit",
-            "competence3":"Docker",
-            "competence4":"GitHub",
-            "competence5":"Amazon Web Services (AWS)"
-         }
+            }
+       
     ]
 }
+

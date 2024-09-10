@@ -14,26 +14,37 @@ export default function MyProject() {
       </div>
       <div className="myProjectsContainer mx-auto my-auto py-5">
         <div className="project bg-slate-50 border-solid rounded-3xl shadow-lg  ">
-          <p className="uppercase text-title">Habiteo</p>
-          <p className="text mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis expedita vel! Accusantium, exercitationem officiis!</p>
-          <a href="http://" className="textLink">Voir le site</a>
-          </div>
+          <figure>
+            <img src="./../../../public/images/habiteo-image.png" alt="" />
+            <p className="uppercase text-title">Habiteo</p>
+            <p className="text text-sm">Site d'achat et de location des maisons</p>
+            <a href="http://" className="textLink text-sm ml-20">Voir le site</a>
+
+          </figure>
+
+        </div>
         <div className=" project bg-slate-50 border-solid rounded-3xl shadow-lg">
-          <p className="uppercase text-title">Megalo</p>
-          <p className="text mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis expedita vel! Accusantium, exercitationem officiis!</p>
-          <a href="http://" className="textLink">Voir le site</a>
-          </div>
+          <figure>
+            <img src="./../../../public/images/habiteo-image.png" alt="" />
+            <p className="uppercase text-title">Megalo</p>
+            <p className="text text-sm">Lorem ipsum dolor sit amet consectetur </p>
+            <a href="http://" className="textLink text-sm ml-20">Voir le site</a>
+          </figure>
+        </div>
 
         <div className=" project bg-slate-50 border-solid rounded-3xl shadow-lg">
-          <p className="uppercase text-title">Gang</p>
-          <p className="text mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reiciendis expedita vel! Accusantium, exercitationem officiis!</p>
-          <a  href="http://" className="textLink">Voir le site</a>
+          <figure>
+            <img src="./../../../public/images/habiteo-image.png" alt="" />
+            <p className="uppercase text-title">Gang</p>
+            <p className="text text-sm">Lorem ipsum dolor sit amet consectetur </p>
+            <a href="http://" className="textLink text-sm ml-20">Voir le site</a>
+          </figure>
         </div>
       </div>
       <div className="buttonVoirPlus">
-      <a href="" > Voir Plus</a>
+        <a href="" > Voir Plus</a>
       </div>
-      
+
     </section>
   );
 }
