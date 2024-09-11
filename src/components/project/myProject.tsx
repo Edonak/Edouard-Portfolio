@@ -12,13 +12,13 @@ export default function MyProject() {
           Les projets sur lesquels j'ai travaillé
         </h2>
       </div>
-      <div className="myProjectsContainer mx-auto my-auto py-5">
+      <div className="myProjectsContainer">
         <div className="project bg-slate-50 border-solid rounded-3xl shadow-lg  ">
           <figure>
             <img src="./../../../public/images/habiteo-image.png" alt="" />
             <p className="uppercase text-title">Habiteo</p>
-            <p className="text text-sm">Site d'achat et de location des maisons</p>
-            <a href="http://" className="textLink text-sm ml-20">Voir le site</a>
+            <p className="text text-sm mb-6">Site d'achat et de location des maisons</p>
+            <a href="http://" className="textLink text-sm">Voir le site</a>
 
           </figure>
 
@@ -26,9 +26,9 @@ export default function MyProject() {
         <div className=" project bg-slate-50 border-solid rounded-3xl shadow-lg">
           <figure>
             <img src="./../../../public/images/habiteo-image.png" alt="" />
-            <p className="uppercase text-title">Megalo</p>
-            <p className="text text-sm">Lorem ipsum dolor sit amet consectetur </p>
-            <a href="http://" className="textLink text-sm ml-20">Voir le site</a>
+            <p className="uppercase text-title">Meg</p>
+            <p className="text text-sm mb-6">Site web de l'église Mission Evangélique Galilée </p>
+            <a href="http://" className="textLink text-sm">Voir le site</a>
           </figure>
         </div>
 
@@ -36,12 +36,12 @@ export default function MyProject() {
           <figure>
             <img src="./../../../public/images/habiteo-image.png" alt="" />
             <p className="uppercase text-title">Gang</p>
-            <p className="text text-sm">Lorem ipsum dolor sit amet consectetur </p>
-            <a href="http://" className="textLink text-sm ml-20">Voir le site</a>
+            <p className="text text-sm mb-6">Lorem ipsum dolor sit amet consectetur </p>
+            <a href="http://" className="textLink text-sm">Voir le site</a>
           </figure>
         </div>
       </div>
-      <div className="buttonVoirPlus">
+      <div className="buttonVoirPlus bg-blue-800 text-white hover:bg-transparent hover:text-blue-800 hover:border-blue-800 font-semibold border border-white rounded">
         <a href="" > Voir Plus</a>
       </div>
 

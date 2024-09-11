@@ -34,9 +34,9 @@ export default function HeroSection() {
               <span className="text-slate-950">Développeur</span> Web et UI/UX Designer
             </h1>
             <p className=" text-xl">
-              Je suis passionné par le développement Web.<br />
-              J'aime codé et j'aime faire des designs, <br/> 
-              Pour rendre vos sites et applications Web présentable
+              Je suis passionné du Web.<br />
+              J'aime le code et faire du design, <br/> 
+              Pour la bonne présentation des vos sites <br /> et applications Web
             </p>
           </div>
 
