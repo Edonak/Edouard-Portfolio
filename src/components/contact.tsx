@@ -1,8 +1,6 @@
 
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ButtonGeneral from "./primaryComponents/buttonGeneral";
-import LinkdinLogo from "./../../public/images/icons8-linkedin.svg";
 
 interface ContactFormProps { }
 
@@ -126,4 +124,3 @@ const ContactForm: React.FC<ContactFormProps> = () => {
   );
 }
 export default ContactForm;
-
