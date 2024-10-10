@@ -15,7 +15,7 @@ export default function MyProject() {
       <div className="myProjectsContainer">
         <div className="project bg-slate-50 border-solid rounded-3xl shadow-lg  ">
           <figure>
-            <img src="./../../../public/images/habiteo-image.png" alt="" />
+            <img src="./../../../public/images/habiteo.png" alt="" />
             <p className="uppercase text-title">Habiteo</p>
             <p className="text text-sm mb-6">Site d'achat et de location des maisons</p>
             <a href="https://habiteo-git-develop-edouard-nakasilas-projects.vercel.app/" className="textLink text-sm">Voir le site</a>
@@ -23,7 +23,7 @@ export default function MyProject() {
         </div>
         <div className="project bg-slate-50 border-solid rounded-3xl shadow-lg">
           <figure>
-            <img src="./../../../public/images/habiteo-image.png" alt="" />
+            <img src="./../../../public/images/habiteo.png" alt="" />
             <p className="uppercase text-title">Meg</p>
             <p className="text text-sm mb-6">Site web de l'église Mission Evangélique Galilée </p>
             <a href="http://" className="textLink text-sm">Voir le site</a>
@@ -32,7 +32,7 @@ export default function MyProject() {
 
         <div className=" project bg-slate-50 border-solid rounded-3xl shadow-lg">
           <figure>
-            <img src="./../../../public/images/habiteo-image.png" alt="" />
+            <img src="./../../../public/images/habiteo.png" alt="" />
             <p className="uppercase text-title">Gang</p>
             <p className="text text-sm mb-6">Lorem ipsum dolor sit amet consectetur </p>
             <a href="http://" className="textLink text-sm">Voir le site</a>
