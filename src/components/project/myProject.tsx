@@ -18,12 +18,10 @@ export default function MyProject() {
             <img src="./../../../public/images/habiteo-image.png" alt="" />
             <p className="uppercase text-title">Habiteo</p>
             <p className="text text-sm mb-6">Site d'achat et de location des maisons</p>
-            <a href="http://" className="textLink text-sm">Voir le site</a>
-
+            <a href="https://habiteo-git-develop-edouard-nakasilas-projects.vercel.app/" className="textLink text-sm">Voir le site</a>
           </figure>
-
         </div>
-        <div className=" project bg-slate-50 border-solid rounded-3xl shadow-lg">
+        <div className="project bg-slate-50 border-solid rounded-3xl shadow-lg">
           <figure>
             <img src="./../../../public/images/habiteo-image.png" alt="" />
             <p className="uppercase text-title">Meg</p>

@@ -1,7 +1,7 @@
 import Avatar from "../primaryComponents/avatar";
 import ButtonGeneral from "../primaryComponents/buttonGeneral";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import ProfilPicture from "./../../../public/images/Sans_titre-removebg-preview.png";
+import ProfilPicture from "./../../../public/images/Profil.png";
 import BlurImage from "./BlurImage";
 
 export default function HeroSection() {
@@ -46,7 +46,7 @@ export default function HeroSection() {
           >
             <ButtonGeneral
               value="Télécharger mon CV"
-              className="buttonTelecharger bg-blue-800 text-white hover:bg-transparent hover:text-blue-800 hover:border-blue-800 font-semibold  py-3 px-4 mt-8 border border-white rounded"
+              className="buttonTelecharger bg-blue-800 text-white hover:bg-transparent hover:text-blue-800 hover:border-blue-800 font-semibold  py-3 px-4 mt-2 border border-white rounded"
             />
           </a>
         </div>
