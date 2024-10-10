@@ -41,7 +41,7 @@ export default function HeroSection() {
           </div>
 
           <a
-            href="./../../doc/CV_2024-08-16_Edouard_NAKASILA ANAKEKA.pdf"
+            href="./../../../public/doc/CV_2024-08-16_Edouard_NAKASILA ANAKEKA.pdf"
             download="Edouard Nakasila CV.pdf"
           >
             <ButtonGeneral
