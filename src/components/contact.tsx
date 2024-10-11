@@ -76,7 +76,7 @@ const ContactForm: React.FC<ContactFormProps> = () => {
             />
           </form>
           <figure className="contact bg-black ">
-            <img src="./../../public/images/nak2.jpg" alt=""/>
+            <img src="images/nak2.jpg" alt=""/>
           </figure>
         </div>
       </div>
